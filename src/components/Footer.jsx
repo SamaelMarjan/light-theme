@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
   return (
     <div className='bg-[#10287A] w-full h-[300px] flex items-center text-white'>
-      <div className='w-[90%] h-[90%] m-auto'>
+      <div className='w-[90%] h-[70%] m-auto flex flex-col justify-between'>
         <div className='flex justify-between'>
           <div>
             <div>Logo</div>
@@ -42,8 +42,10 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div>2</div>
-        <div>3</div>
+        <div className='border border-[#fff]' />
+        <div className='flex justify-center items-center'>
+          <p>Copyright © 2022 SEKOLA. All rigths reserved.</p>
+        </div>
       </div>
     </div>
   );

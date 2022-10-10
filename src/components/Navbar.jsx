@@ -13,16 +13,16 @@ const Navbar = () => {
                         <Link to='/'>Home</Link>
                     </li>
                     <li>
-                        <Link to='/about'>Profile</Link>
+                        <Link to='/'>Profile</Link>
                     </li>
                     <li>
-                        <Link to='/about'>Gallery</Link>
+                        <Link to='/'>Gallery</Link>
                     </li>
                     <li>
-                        <Link to='/about'>Projects</Link>
+                        <Link to='/'>Projects</Link>
                     </li>
                     <li className='ml-10 w-[90px] h-[30px] flex items-center justify-center border border-[#FFD600] font-bold text-xl text-[#FFD600]'>
-                        <Link to='/about'>List</Link>
+                        <Link to='/'>List</Link>
                     </li>
                 </ul>
             </div>
