@@ -42,7 +42,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className='border border-[#fff]' />
+        <div className='border border-[#6b7aad]' />
         <div className='flex justify-center items-center'>
           <p>Copyright © 2022 <span className='font-bold'><span className='text-[#FFD600]'>SAM</span>AEL</span>. All rigths reserved.</p>
         </div>
